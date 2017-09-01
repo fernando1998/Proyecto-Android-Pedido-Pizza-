@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="cruz.com.myapplicationui.PrimarioActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:gravity="center"
+    android:layout_marginTop="40dp"
+
+    >
+
+    <VideoView
+
+        android:id="@+id/video1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="240dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_border"
+        android:drawableLeft="@drawable/ic_portada"
+        android:paddingLeft="25dp"
+        android:drawablePadding="-30dp"
+        android:fontFamily="casual"
+        android:text="@string/app_order"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+</RelativeLayout>

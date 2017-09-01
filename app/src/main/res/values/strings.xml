@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Pizza Application</string>
+    <string name="app_tittle">Pizzas Mama Mia!</string>
+    <string name="app_info">A que no resites comer solo uno .. ;)</string>
+    <string name="app_order">"Ordenar"</string>
+    <string name="app_comple">Complementos</string>
+    <string name="app_Direccion">Dirección de Envío</string>
+    <string name="app_typePizza">Tipo de Pizza</string>
+    <string name="app_TypeMasa">Tipo de Masa</string>
+    <string name="app_Masa1">Masa Gruesa</string>
+    <string name="app_Masa2">Masa Delgada</string>
+    <string name="app_Masa3">Masa Artesanal</string>
+    <string name="app_Comple1">Extra queso Mozarella</string>
+    <string name="app_Comple2">Extra jamón</string>
+    <string name="app_EditTxtHint">Ingrese su dirección </string>
+
+
+
+    <string-array name="android_layout_arrays">
+        <item>Americana</item>
+        <item>Meet Lover</item>
+        <item>Hawaiana</item>
+        <item>Super Suprema</item>
+    </string-array>
+
+</resources>
